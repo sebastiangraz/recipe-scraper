@@ -3,8 +3,7 @@ import streamlit as st
 from scraper import scrape_recipe
 
 def main():
-    st.title("Cooking Recipe Scraper (Custom Selectors)")
-
+    st.title("Recipe Scraper")
     st.write(
         """
         1. Paste one or more recipe URLs below (one per line).  
